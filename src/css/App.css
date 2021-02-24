@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction :column;
+    text-align: center;
+    justify-content: center;
+}
+
+.container nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+
+.container nav li a {
+    text-decoration: none;
+    padding:.3rem;
+}
+
+.container nav li a:hover {
+    text-decoration: underline;
+}
+
+.container img:hover {
+    cursor:pointer
+}
